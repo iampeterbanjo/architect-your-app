@@ -1,0 +1,18 @@
+{
+  "name": "architect-your-app",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "setup": "arc init",
+    "dev": "arc sandbox",
+    "prod:logs": "arc logs src/http/any-catchall"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.13.1"
+  },
+  "dependencies": {
+    "@fastify/aws-lambda": "^3.3.0",
+    "arc": "^0.1.4",
+    "fastify": "^4.19.2"
+  }
+}
