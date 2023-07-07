@@ -8,7 +8,8 @@
     "prod:logs": "arc logs src/http/any-catchall"
   },
   "devDependencies": {
-    "@architect/architect": "^10.13.1"
+    "@architect/architect": "^10.13.1",
+    "@architect/plugin-typescript": "^1.1.1"
   },
   "dependencies": {
     "@fastify/aws-lambda": "^3.3.0",
